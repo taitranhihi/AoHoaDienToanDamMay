@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Hàm sắp xếp dãy số nguyên bằng thuật toán Insertion Sort
 void insertionSort(int arr[], int n) {
     int i, key, j;
     for (i = 1; i < n; i++) {
