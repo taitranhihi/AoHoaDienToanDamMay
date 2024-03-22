@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-
 int isPerfectSquare(int n) {
     int squareRoot = sqrt(n);
     return squareRoot * squareRoot == n;
